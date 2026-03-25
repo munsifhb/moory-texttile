@@ -17,9 +17,9 @@ export default function FeatureDesign() {
 
         <div className="grid w-full grid-cols-1 gap-5 mx-auto mt-16 md:w-4/6 md:grid-cols-3">
             <motion.div className="relative overflow-hidden rounded-lg group"
-            initial={{ x: 100, opacity: 0 }}
-      whileInView={{ x: 0, opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.2, ease: "easeInOut" }}
+            initial={{ y: 100, opacity: 0 }}
+      whileInView={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.4, ease: "easeInOut" }}
         viewport={{once: true}}
             >
                 <img src="./images/pic-1.jpg" alt="" className="z-10 object-cover w-full h-full transition duration-300 group-hover:scale-110" />
@@ -28,9 +28,9 @@ export default function FeatureDesign() {
                 </div>
             </motion.div>
             <motion.div className="relative overflow-hidden rounded-lg group"
-            initial={{ x: 70, opacity: 0 }}
-      whileInView={{ x: 0, opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.4, ease: "easeInOut" }}
+            initial={{ y: 70, opacity: 0 }}
+      whileInView={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.6, ease: "easeInOut" }}
         viewport={{once: true}}
             >
                 <img src="./images/pic-2.jpg" alt="" className="object-cover w-full h-full transition duration-300 group-hover:scale-110" />
@@ -39,9 +39,9 @@ export default function FeatureDesign() {
                 </div>
             </motion.div>
             <motion.div className="relative overflow-hidden rounded-lg group"
-            initial={{ x: 50, opacity: 0 }}
-      whileInView={{ x: 0, opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.6, ease: "easeInOut" }}
+            initial={{ y: 50, opacity: 0 }}
+      whileInView={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.8, delay: 0.8, ease: "easeInOut" }}
         viewport={{once: true}}
             >
                 <img src="./images/pic-3.jpg" alt="" className="object-cover w-full h-full transition duration-300 group-hover:scale-110" />
