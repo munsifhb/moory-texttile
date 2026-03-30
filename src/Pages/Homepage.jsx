@@ -4,6 +4,7 @@ import Hero from '../Components/Hero'
 import Loader from '../Components/Loader'
 import { useState, useEffect } from 'react' 
 import FeatureDesign from '../Components/FeatureDesign'
+import About from '../Components/About'
 
 export default function Homepage() {
   const [loading, setLoading] = useState(true)
@@ -25,6 +26,7 @@ export default function Homepage() {
       <Navbar />
       <Hero />
       <FeatureDesign />
+      <About />
     </div>
   )
 }
